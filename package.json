@@ -1,0 +1,23 @@
+{
+  "name": "dataapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "condataapi": "ts-node src/index.ts",
+    "lambdaInvoke": "ts-node src/invoke.ts",
+    "condataapi:watch": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.19.15",
+    "aws-sdk": "^2.834.0",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
